@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joás Souza — Engenheiro de Software | DBA Sênior</title>
+  <meta name="description" content="Joás Souza — Engenheiro de Software, Administrador de Banco de Dados Sênior e Analista de Sistemas em Olinda/PE.">
+  <meta property="og:title" content="Joás Souza — Engenheiro de Software | DBA Sênior">
+  <meta property="og:description" content="Engenheiro de Software, Administrador de Banco de Dados Sênior e Analista de Sistemas.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://joassouza.com.br">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#inicio" class="logo" data-i18n="logo">Joás<span class="logo-accent">Souza</span></a>
+      <nav class="nav-links" id="navLinks" aria-label="Navegação principal">
+        <a href="#inicio" data-i18n="nav.inicio">Início</a>
+        <a href="#sobre" data-i18n="nav.sobre">Sobre</a>
+        <a href="#habilidades" data-i18n="nav.habilidades">Habilidades</a>
+        <a href="#experiencia" data-i18n="nav.experiencia">Experiência</a>
+        <a href="#publicacoes" data-i18n="nav.publicacoes">Publicações</a>
+        <a href="#contato" data-i18n="nav.contato">Contato</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Mudar idioma" type="button">EN</button>
+        <a class="btn btn-primary btn-sm nav-cta" href="#contato" data-i18n="nav.cta">Vamos conversar</a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menu" type="button" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="grid-overlay"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge">
+          <span class="dot"></span>
+          <span data-i18n="hero.disponivel">Disponível para projetos e novas oportunidades</span>
+        </span>
+        <h1 class="hero-title">
+          <span class="hero-title-hello" data-i18n="hero.hello">Olá, eu sou</span>
+          <span class="gradient-text">Joás Souza</span>
+        </h1>
+        <p class="hero-role" data-i18n="hero.role">Engenheiro de Software · DBA Sênior · Analista de Sistemas</p>
+        <p class="hero-text" data-i18n="hero.text">Mais de duas décadas unindo engenharia de software, banco de dados e análise de sistemas para transformar dados em decisões — em ambientes complexos e de alta criticidade.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#contato" data-i18n="hero.ctaContato">Entrar em contato</a>
+          <a class="btn btn-ghost" href="#sobre" data-i18n="hero.ctaSobre">Conhecer meu trabalho</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/joassouza" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          </a>
+          <a href="mailto:joassouza@gmail.com" aria-label="E-mail">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12.71 2.34 6.9A2 2 0 0 1 4 5h16a2 2 0 0 1 1.66 1.9L12 12.71zm0 2.34L2 9.3V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9.3l-10 5.75z"/></svg>
+          </a>
+          <a href="https://github.com/joasesouza" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a11 11 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.26 5.66.41.36.78 1.05.78 2.13v3.16c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+          </a>
+          <a href="https://wa.me/5581998306567" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.45 15.11L2 22l5.02-1.56A9.9 9.9 0 1 0 12.04 2zm0 1.67a8.23 8.23 0 1 1 0 16.46 8.2 8.2 0 0 1-4.19-1.15l-.3-.18-2.98.93.97-2.9-.2-.31a8.23 8.23 0 0 1 6.7-12.85zm4.5 11.43c-.2.57-.84.92-1.36.98-.33.04-.76.13-2.45-.51-2.05-.79-3.37-2.83-3.47-2.96-.1-.13-1.43-1.9-1.43-3.63 0-1.72.9-2.57 1.22-2.92.32-.35.7-.44.93-.44h.67c.21 0 .5-.08.78.6.29.7.98 2.4 1.06 2.57.09.17.14.37.03.6-.11.23-.17.37-.34.57l-.51.6c-.17.17-.35.36-.15.7.2.35.9 1.49 1.94 2.41 1.33 1.18 1.84 1.35 2.12 1.42.28.07.44.06.6-.04.16-.1.69-.8.87-1.1.18-.29.36-.24.6-.15.25.1 1.57.74 1.84.88.27.13.45.2.52.31.07.11.07.65-.13 1.2z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="assets/foto.jpg" alt="Joás Souza" id="profilePhoto" onerror="this.onerror=null;this.src='assets/foto.svg';">
+        </div>
+        <div class="hero-card card-exp">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19V8l8-5 8 5v11M4 19h16M9 19v-6h6v6"/></svg>
+          <div>
+            <strong data-i18n="hero.cardExpValue">20+ anos</strong>
+            <span data-i18n="hero.cardExp">de experiência em TI</span>
+          </div>
+        </div>
+        <div class="hero-card card-role">
+          <span class="dot dot-green"></span>
+          <div>
+            <strong data-i18n="hero.cardRole">DBA Sênior</strong>
+            <span data-i18n="hero.cardRoleAt">Qintess · Recife/PE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#sobre" aria-label="Rolar para baixo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ SOBRE ============ -->
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag" data-i18n="sobre.tag">Quem sou</span>
+        <h2 class="section-title" data-i18n="sobre.title">Engenharia, dados e pessoas</h2>
+      </div>
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <p data-i18n="sobre.p1">Engenheiro de software com forte base acadêmica e carreira sólida em times de TI de ambientes complexos, onde colaboração, influência e confiança fazem a diferença. Atualmente atuo como Administrador de Banco de Dados Sênior na Qintess.</p>
+          <p data-i18n="sobre.p2">Tive papel essencial na implementação de um sistema integrado que consolidou dados de diversas áreas de negócio em um único relatório organizacional para a diretoria — conectando engenharia de software, modelagem de dados e análise de sistemas.</p>
+          <p data-i18n="sobre.p3">Também fui professor universitário por quase uma década, formando turmas de Administração, Ciências Contábeis e Sistemas de Informação — e contribuí para que o curso de Sistemas de Informação de Olinda se tornasse o melhor entre instituições privadas de Pernambuco (ENADE/MEC 2015).</p>
+          <ul class="sobre-highlights">
+            <li data-i18n="sobre.h1">Implementação de sistemas integrados para nível diretivo</li>
+            <li data-i18n="sobre.h2">Publicações científicas em redes de computadores e IA</li>
+            <li data-i18n="sobre.h3">Inglês profissional (proficiência de trabalho)</li>
+            <li data-i18n="sobre.h4">Centenas de profissionais treinados em sistemas corporativos</li>
+          </ul>
+        </div>
+        <div class="sobre-stats">
+          <div class="stat-card"><strong data-i18n="stat.anos">20+</strong><span data-i18n="stat.anosL">anos de experiência</span></div>
+          <div class="stat-card"><strong data-i18n="stat.mestrado">MSc</strong><span data-i18n="stat.mestradoL">Eng. da Computação — UPE</span></div>
+          <div class="stat-card"><strong data-i18n="stat.pub">2</strong><span data-i18n="stat.pubL">publicações científicas</span></div>
+          <div class="stat-card"><strong data-i18n="stat.ensino">200+</strong><span data-i18n="stat.ensinoL">profissionais treinados</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HABILIDADES ============ -->
+  <section class="section section-alt" id="habilidades">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag" data-i18n="hab.tag">Competências</span>
+        <h2 class="section-title" data-i18n="hab.title">Ferramentas e especialidades</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon" style="--c:#38bdf8"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 12.5l9 5 9-5"/><path d="M3 17.5l9 5 9-5"/></svg></div>
+          <h3 data-i18n="hab.db">Banco de Dados</h3>
+          <p data-i18n="hab.dbD">Oracle, SQL Server, modelagem relacional, SQL/PL-SQL, performance, backup e recuperação.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" style="--c:#a78bfa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6"/></svg></div>
+          <h3 data-i18n="hab.dev">Engenharia de Software</h3>
+          <p data-i18n="hab.devD">ASP.NET, C#, Visual Basic, Delphi, UML e requisitos — do desenho à entrega.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" style="--c:#34d399"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/></svg></div>
+          <h3 data-i18n="hab.dados">Análise de Sistemas</h3>
+          <p data-i18n="hab.dadosD">Levantamento de requisitos, integração de dados entre áreas e relatórios estratégicos.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" style="--c:#fbbf24"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h5"/></svg></div>
+          <h3 data-i18n="hab.gp">Gestão de Projetos</h3>
+          <p data-i18n="hab.gpD">Planejamento estratégico, orçamento, negociação e gestão de equipes e clientes.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" style="--c:#f472b6"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div>
+          <h3 data-i18n="hab.gov">Governança &amp; LGPD</h3>
+          <p data-i18n="hab.govD">Auditoria de sistemas e informação, conformidade e proteção de dados pessoais.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon" style="--c:#60a5fa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></div>
+          <h3 data-i18n="hab.lang">Idiomas</h3>
+          <p data-i18n="hab.langD">Português nativo e inglês em nível profissional (leitura, escrita e conversação).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIÊNCIA + EDUCAÇÃO ============ -->
+  <section class="section" id="experiencia">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag" data-i18n="exp.tag">Trajetória</span>
+        <h2 class="section-title" data-i18n="exp.title">Experiência profissional</h2>
+      </div>
+      <div class="exp-wrap">
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="timeline-date" data-i18n="exp.qintess.data">2025 — atual</span>
+              <h3 data-i18n="exp.qintess.role">Administrador de Banco de Dados Sênior</h3>
+              <p class="timeline-company" data-i18n="exp.qintess.co">Qintess · Recife/PE</p>
+              <p data-i18n="exp.qintess.desc">Administração, performance e confiabilidade de bancos de dados em ambiente corporativo de alta criticidade.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="timeline-date" data-i18n="exp.seedu.data">Governo de Pernambuco</span>
+              <h3 data-i18n="exp.seedu.role">Área de Tecnologia da Informação</h3>
+              <p class="timeline-company" data-i18n="exp.seedu.co">Secretaria de Educação e Esportes de PE · Recife/PE</p>
+              <p data-i18n="exp.seedu.desc">Análise e desenvolvimento de sistemas e serviços web para o estado, incluindo o site da Biblioteca Pública de Pernambuco.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="timeline-date" data-i18n="exp.uninassau.data">2019 — 2020</span>
+              <h3 data-i18n="exp.uninassau.role">Professor universitário</h3>
+              <p class="timeline-company" data-i18n="exp.uninassau.co">UNINASSAU · Olinda/PE</p>
+              <p data-i18n="exp.uninassau.desc">Docência nos cursos de Sistemas de Informação e áreas correlatas.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="timeline-date" data-i18n="exp.uninabuco.data">2009 — 2018</span>
+              <h3 data-i18n="exp.uninabuco.role">Professor universitário</h3>
+              <p class="timeline-company" data-i18n="exp.uninabuco.co">UNINABUCO · Paulista/PE</p>
+              <p data-i18n="exp.uninabuco.desc">Docência em Administração, Ciências Contábeis e Sistemas de Informação. Membro do conselho pedagógico e contribuição para a melhor nota do curso de SI de Olinda entre privadas do estado (ENADE/MEC 2015).</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-dot"></span>
+            <div class="timeline-card">
+              <span class="timeline-date" data-i18n="exp.dev.data">Anos anteriores</span>
+              <h3 data-i18n="exp.dev.role">Desenvolvedor de Software / Team Leader</h3>
+              <p class="timeline-company" data-i18n="exp.dev.co">Empresas privadas e públicas</p>
+              <p data-i18n="exp.dev.desc">Desenvolvimento de software (.NET, ASP, VB, Delphi) para empresas privadas e governo, com treinamento de centenas de usuários e 100% de satisfação dos clientes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="education">
+          <h3 class="edu-title" data-i18n="edu.title">Formação acadêmica</h3>
+          <div class="edu-card">
+            <h4 data-i18n="edu.mestrado">Mestrado em Engenharia da Computação</h4>
+            <p data-i18n="edu.mestradoU">Universidade de Pernambuco (UPE) · 2008 — 2010</p>
+          </div>
+          <div class="edu-card">
+            <h4 data-i18n="edu.pos">Pós-graduação em Auditoria de Sistemas e Informação</h4>
+            <p data-i18n="edu.posU">Universidade Federal de Pernambuco (UFPE) · 2004 — 2005</p>
+          </div>
+          <div class="edu-card">
+            <h4 data-i18n="edu.bach">Bacharelado em Ciência da Computação</h4>
+            <p data-i18n="edu.bachU">Universidade Católica de Pernambuco · 1996 — 2001</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PUBLICAÇÕES ============ -->
+  <section class="section section-alt" id="publicacoes">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag" data-i18n="pub.tag">Pesquisa</span>
+        <h2 class="section-title" data-i18n="pub.title">Publicações científicas</h2>
+      </div>
+      <div class="pubs-grid">
+        <article class="pub-card">
+          <span class="pub-type" data-i18n="pub.tipo1">Redes de Computadores</span>
+          <h3 data-i18n="pub.t1">Um Detector de Defeitos Cumulativo Baseado em uma Abordagem Difusa</h3>
+          <p data-i18n="pub.v1">Simpósio Brasileiro de Redes de Computadores</p>
+          <a class="btn btn-ghost btn-sm" href="https://www.escavador.com/sobre/7111827/joas-evangelista-de-souza" target="_blank" rel="noopener" data-i18n="pub.ver">Ver publicação</a>
+        </article>
+        <article class="pub-card">
+          <span class="pub-type" data-i18n="pub.tipo2">Inteligência Artificial</span>
+          <h3 data-i18n="pub.t2">Uma Abordagem Multi-objetiva Híbrida para Seleção e Atribuição de Pesos a Características para Classificadores k-NN</h3>
+          <p data-i18n="pub.v2">XXIX Congresso da SBC — Encontro Nacional de Inteligência Artificial (ENIA), 2009</p>
+          <a class="btn btn-ghost btn-sm" href="https://www.lbd.dcc.ufmg.br/colecoes/enia/2009/008.pdf" target="_blank" rel="noopener" data-i18n="pub.ver">Ver publicação</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTATO ============ -->
+  <section class="section contact" id="contato">
+    <div class="container">
+      <div class="contact-box">
+        <div class="section-head contact-head">
+          <span class="section-tag" data-i18n="cont.tag">Contato</span>
+          <h2 class="section-title" data-i18n="cont.title">Vamos construir algo juntos?</h2>
+          <p class="contact-sub" data-i18n="cont.sub">Disponível para oportunidades, projetos e colaborações. Será um prazer conversar.</p>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:joassouza@gmail.com">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1z"/><path d="M3 8l9 6 9-6"/></svg></div>
+            <div>
+              <strong data-i18n="cont.email">E-mail</strong>
+              <span>joassouza@gmail.com</span>
+            </div>
+          </a>
+          <a class="contact-card" href="https://wa.me/5581998306567" target="_blank" rel="noopener">
+            <div class="contact-icon" style="--c:#25d366"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.45 15.11L2 22l5.02-1.56A9.9 9.9 0 1 0 12.04 2zm0 1.67a8.23 8.23 0 1 1 0 16.46 8.2 8.2 0 0 1-4.19-1.15l-.3-.18-2.98.93.97-2.9-.2-.31a8.23 8.23 0 0 1 6.7-12.85zm4.5 11.43c-.2.57-.84.92-1.36.98-.33.04-.76.13-2.45-.51-2.05-.79-3.37-2.83-3.47-2.96-.1-.13-1.43-1.9-1.43-3.63 0-1.72.9-2.57 1.22-2.92.32-.35.7-.44.93-.44h.67c.21 0 .5-.08.78.6.29.7.98 2.4 1.06 2.57.09.17.14.37.03.6-.11.23-.17.37-.34.57l-.51.6c-.17.17-.35.36-.15.7.2.35.9 1.49 1.94 2.41 1.33 1.18 1.84 1.35 2.12 1.42.28.07.44.06.6-.04.16-.1.69-.8.87-1.1.18-.29.36-.24.6-.15.25.1 1.57.74 1.84.88.27.13.45.2.52.31.07.11.07.65-.13 1.2z"/></svg></div>
+            <div>
+              <strong data-i18n="cont.whats">WhatsApp</strong>
+              <span>+55 81 99830-6567</span>
+            </div>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/joassouza" target="_blank" rel="noopener">
+            <div class="contact-icon" style="--c:#0a66c2"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></div>
+            <div>
+              <strong>LinkedIn</strong>
+              <span>linkedin.com/in/joassouza</span>
+            </div>
+          </a>
+        </div>
+        <a class="btn btn-primary btn-lg contact-cta" href="mailto:joassouza@gmail.com?subject=Contato%20via%20site" data-i18n="cont.cta">Enviar um e-mail</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#inicio" class="logo">Joás<span class="logo-accent">Souza</span></a>
+      <p data-i18n="footer.text">Engenheiro de Software · DBA Sênior · Analista de Sistemas</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/joassouza" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+        </a>
+        <a href="https://github.com/joasesouza" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a11 11 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.26 5.66.41.36.78 1.05.78 2.13v3.16c0 .3.21.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+        </a>
+        <a href="https://wa.me/5581998306567" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.45 15.11L2 22l5.02-1.56A9.9 9.9 0 1 0 12.04 2zm0 1.67a8.23 8.23 0 1 1 0 16.46 8.2 8.2 0 0 1-4.19-1.15l-.3-.18-2.98.93.97-2.9-.2-.31a8.23 8.23 0 0 1 6.7-12.85zm4.5 11.43c-.2.57-.84.92-1.36.98-.33.04-.76.13-2.45-.51-2.05-.79-3.37-2.83-3.47-2.96-.1-.13-1.43-1.9-1.43-3.63 0-1.72.9-2.57 1.22-2.92.32-.35.7-.44.93-.44h.67c.21 0 .5-.08.78.6.29.7.98 2.4 1.06 2.57.09.17.14.37.03.6-.11.23-.17.37-.34.57l-.51.6c-.17.17-.35.36-.15.7.2.35.9 1.49 1.94 2.41 1.33 1.18 1.84 1.35 2.12 1.42.28.07.44.06.6-.04.16-.1.69-.8.87-1.1.18-.29.36-.24.6-.15.25.1 1.57.74 1.84.88.27.13.45.2.52.31.07.11.07.65-.13 1.2z"/></svg>
+        </a>
+      </div>
+      <p class="footer-copy">© <span id="year">2026</span> Joás Souza · <span data-i18n="footer.rights">Todos os direitos reservados</span></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
