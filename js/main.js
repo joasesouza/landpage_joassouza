@@ -15,7 +15,7 @@ const i18n = {
     'nav.cta': 'Vamos conversar',
     'hero.disponivel': 'Disponível para projetos e novas oportunidades',
     'hero.hello': 'Olá, eu sou',
-    'hero.role': 'Engenheiro de Software · Analista de Dados Sênior · Analista de Sistemas',
+    'hero.role': 'Engenheiro de Software · Analista de Dados Sênior',
     'hero.text': 'Mais de duas décadas unindo engenharia de software, banco de dados e análise de sistemas para transformar dados em decisões — em ambientes complexos e de alta criticidade.',
     'hero.ctaContato': 'Entre em contato',
     'hero.ctaSobre': 'Conheça meu trabalho',
@@ -98,7 +98,7 @@ const i18n = {
     'cont.email': 'E-mail',
     'cont.whats': 'WhatsApp',
     'cont.cta': 'Enviar um e-mail',
-    'footer.text': 'Engenheiro de Software · Analista de Dados Sênior · Analista de Sistemas',
+    'footer.text': 'Engenheiro de Software · Analista de Dados Sênior',
     'footer.rights': 'Todos os direitos reservados'
   },
   'en': {
@@ -112,7 +112,7 @@ const i18n = {
     'nav.cta': 'Let\'s talk',
     'hero.disponivel': 'Available for projects and new opportunities',
     'hero.hello': 'Hi, I\'m',
-    'hero.role': 'Software Engineer · Senior Data Analist · Systems Analyst',
+    'hero.role': 'Software Engineer · Senior Data Analist',
     'hero.text': 'Over two decades combining software engineering, databases and systems analysis to turn data into decisions — in complex, high-criticality environments.',
     'hero.ctaContato': 'Get in touch',
     'hero.ctaSobre': 'See my work',
@@ -195,7 +195,7 @@ const i18n = {
     'cont.email': 'E-mail',
     'cont.whats': 'WhatsApp',
     'cont.cta': 'Send an e-mail',
-    'footer.text': 'Software Engineer · Senior Data Analist · Systems Analyst',
+    'footer.text': 'Software Engineer · Senior Data Analist',
     'footer.rights': 'All rights reserved'
   }
 };
