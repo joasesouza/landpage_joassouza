@@ -25,7 +25,7 @@ const i18n = {
     'hero.cardRoleAt': 'Qintess · Recife/PE',
     'sobre.tag': 'Quem sou',
     'sobre.title': 'Engenharia, dados e pessoas',
-    'sobre.p1': 'Engenheiro de software com forte base acadêmica e carreira sólida em times de TI de ambientes complexos, onde colaboração, influência e confiança fazem a diferença. Atualmente atuo como Analista de Dados Sênior na Qintess.',
+    'sobre.p1': 'Engenheiro de software com forte base acadêmica e carreira sólida em times de TI de ambientes complexos, onde colaboração, influência e confiança fazem a diferença. Atuei recentemente como Analista de Dados Sênior na Qintess.',
     'sobre.p2': 'Tive papel essencial na implementação de um sistema integrado que consolidou dados de diversas áreas de negócio em um único relatório organizacional para a diretoria — conectando engenharia de software, modelagem de dados e análise de sistemas.',
     'sobre.p3': 'Também fui professor universitário por quase uma década, formando turmas de Administração, Ciências Contábeis e Sistemas de Informação — e contribuí para que o curso de Sistemas de Informação de Olinda se tornasse o melhor entre instituições privadas de Pernambuco (ENADE/MEC 2015).',
     'sobre.h1': 'Implementação de sistemas integrados para nível diretivo',
