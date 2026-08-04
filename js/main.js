@@ -122,7 +122,7 @@ const i18n = {
     'hero.cardRoleAt': 'Qintess · Recife, Brazil',
     'sobre.tag': 'Who I am',
     'sobre.p1': 'Software engineer with a strong academic background and a proven record working in IT teams within complex environments, where collaboration, influencing others and trust make the difference. I currently work as a Senior Database Administrator at Qintess.',
-    'sobre.p2': 'I played a vital role in the implementation of an integrated system that consolidated data from several business areas into a single organizational report for the board level — connecting software engineering, data modeling and systems analysis.',
+    'sobre.p2': 'I played a key role in implementing integrated systems such as TEBAS (TRF5) and EquipMaint (CHESF), which consolidate data from various business areas to support decision-making across different sectors and levels of the organization connecting software engineering, data modeling, and systems analysis.',
     'sobre.p3': 'I was also a university professor for almost a decade, teaching Administration, Accounting Sciences and Information Systems — and helped the Information Systems program in Faculdade Joaquim Nabuco from Olinda become the best among private institutions in Pernambuco (ENADE/MEC 2015).',
     'sobre.h1': 'Integrated systems implementation for board-level reporting',
     'sobre.h2': 'Scientific publications in computer networks and AI',
